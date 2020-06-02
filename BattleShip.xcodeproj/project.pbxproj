@@ -12,6 +12,7 @@
 		9E543C4E24851CAF00CE6923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E543C4C24851CAF00CE6923 /* Main.storyboard */; };
 		9E543C5024851CAF00CE6923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E543C4F24851CAF00CE6923 /* Assets.xcassets */; };
 		9E543C5324851CAF00CE6923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E543C5124851CAF00CE6923 /* LaunchScreen.storyboard */; };
+		9E543C5D24853FF300CE6923 /* game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E543C5C24853FF300CE6923 /* game.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		9E543C4F24851CAF00CE6923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E543C5224851CAF00CE6923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E543C5424851CAF00CE6923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E543C5A24852A5100CE6923 /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board.jpg; path = ../board.jpg; sourceTree = "<group>"; };
+		9E543C5B24852C5E00CE6923 /* kot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kot.jpg; path = ../kot.jpg; sourceTree = "<group>"; };
+		9E543C5C24853FF300CE6923 /* game.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = game.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 			children = (
 				9E543C4724851CAF00CE6923 /* BattleShip */,
 				9E543C4624851CAF00CE6923 /* Products */,
+				9E543C5B24852C5E00CE6923 /* kot.jpg */,
+				9E543C5A24852A5100CE6923 /* board.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +66,7 @@
 				9E543C4F24851CAF00CE6923 /* Assets.xcassets */,
 				9E543C5124851CAF00CE6923 /* LaunchScreen.storyboard */,
 				9E543C5424851CAF00CE6923 /* Info.plist */,
+				9E543C5C24853FF300CE6923 /* game.storyboard */,
 			);
 			path = BattleShip;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E543C5D24853FF300CE6923 /* game.storyboard in Resources */,
 				9E543C5324851CAF00CE6923 /* LaunchScreen.storyboard in Resources */,
 				9E543C5024851CAF00CE6923 /* Assets.xcassets in Resources */,
 				9E543C4E24851CAF00CE6923 /* Main.storyboard in Resources */,
